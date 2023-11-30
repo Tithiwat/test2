@@ -1,0 +1,28 @@
+{
+    "mosaicjson": "0.0.2",
+    "version": "1.0.0",
+    "minzoom": 13,
+    "maxzoom": 20,
+    "quadkey_zoom": 13,
+    "bounds": [
+        -87.025,
+        36.1,
+        -85.425,
+        36.225
+    ],
+    "center": [
+        -86.225,
+        36.1625,
+        13
+    ],
+    "tiles": {
+        "0320021003031": [
+            "s3://noaa-eri-pds/2020_Nashville_Tornado/20200307a_RGB/20200307aC0864030w361330n.tif"
+        ],
+        "0320021003120": [
+            "s3://noaa-eri-pds/2020_Nashville_Tornado/20200307a_RGB/20200307aC0863730w361330n.tif",
+            "s3://noaa-eri-pds/2020_Nashville_Tornado/20200307a_RGB/20200307aC0863900w361330n.tif",
+            "s3://noaa-eri-pds/2020_Nashville_Tornado/20200307a_RGB/20200307aC0864030w361330n.tif"
+        ]
+    }
+}
